@@ -89,13 +89,7 @@
     margin-top: 10px;
 }
 
-.book-title:focus-visible {
-    outline: none;
-    border: 1px solid #2F6690;
-    border-radius: 5px;
-}
-
-.book-brief:focus-visible {
+.border-highlight:focus-visible {
     outline: none;
     border: 1px solid #2F6690;
     border-radius: 5px;

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Noto+Sans+TC:wght@300;400&family=Source+Code+Pro:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* outline: 1px solid #81C7D4 !important; */
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ECEFF1;
+    font-family: 'Source Code Pro', 'Noto Sans TC', 'Noto Sans JP';
+    font-weight: lighter;
+    color: #05052F;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #81C7D4;
+    transition: all 0.4s;
+}
+
+a:hover {
+    color: #51A8DD;
+}
+
+.main-content {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+@media screen and (max-width: 1199px ) {
+    .container {
+        padding: 40px 20px;
+    }
+}
+
+.ig-link-wrapper {
+    text-align: center;
+}
+
+.ig-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.icon-instagram {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    text-align: center;
+    font-size: 12px;
+}

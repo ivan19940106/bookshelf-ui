@@ -11,6 +11,7 @@
 }
 
 .card-wrapper li {
+    position: relative;
     flex-shrink: 0;
     display: block;
     margin-left: 30px;
@@ -88,7 +89,72 @@
     margin-top: 10px;
 }
 
+.book-title:focus-visible {
+    outline: none;
+    border: 1px solid #2F6690;
+    border-radius: 5px;
+}
+
+.book-brief:focus-visible {
+    outline: none;
+    border: 1px solid #2F6690;
+    border-radius: 5px;
+}
+
 /* card end */
+
+/* admin panel start */
+
+.admin-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-panel.above {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.admin-panel a {
+    flex-shrink: 0;
+    width: calc(50% - 5px);
+}
+
+.btn {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 10px;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #81C7D4;
+    border-radius: 10px;
+}
+
+.admin-panel .add {
+    width: 120px;
+}
+
+.admin-panel .submit {
+    margin-left: 10px;
+    width: 120px;
+}
+
+.delete {
+    color: #fff;
+    background-color: #BA1200;
+    border: 1px solid #BA1200;
+    transition: all 0.4s;
+}
+
+.delete:hover {
+    background-color: #AF1B3F;
+    border: 1px solid #AF1B3F;
+    color: #ddd;
+}
+
+/* admin panel end */
 
 @media screen and (max-width: 767px) {
     .card-wrapper {
